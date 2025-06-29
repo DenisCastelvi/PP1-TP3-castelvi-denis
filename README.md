@@ -1,100 +1,26 @@
-# PP1-TP3-castelvi-denis
-✅ 1. ¿Cómo cambiar el azul del encabezado (bg-primary)?
-Bootstrap usa clases como bg-primary, bg-success, bg-danger, etc., con colores predeterminados. Para cambiar el color del encabezado a uno personalizado, tenés dos opciones:
+# 💼 Trabajo Práctico: Derecho a la Desconexión
 
-🅰️ OPCIÓN 1: Cambiar con tu propio CSS (recomendado)
-Quitá bg-primary de la etiqueta <header>.
+## 📘 Tema del trabajo
 
-En tu archivo estilo.css, agregá un estilo con tu color preferido. Por ejemplo:
-
-css
-Copiar
-Editar
-/* Estilo personalizado para encabezado */
-header {
-    background-color: #003366; /* azul oscuro personalizado */
-    color: white;
-}
-Ahora el HTML quedaría así:
-
-html
-Copiar
-Editar
-<header class="text-white text-center py-4 shadow-sm mb-4">
-    <!-- sin bg-primary -->
-    <div class="container">
-        <h1 class="display-5 fw-bold">Derecho a la Desconexión</h1>
-        <p class="lead">Riesgos Psicosociales y la importancia de establecer límites en el teletrabajo</p>
-    </div>
-</header>
-🔁 Podés cambiar el color #003366 por cualquier otro desde https://htmlcolorcodes.com/es/
-
-✅ 2. README para tu proyecto
-A continuación te dejo un archivo README.md con formato profesional. Copialo y guardalo como archivo de texto plano con extensión .md.
-
-markdown
-Copiar
-Editar
-# Riesgos Psicosociales y Derecho a la Desconexión 🧠💼
-
-Este proyecto web presenta información sobre los riesgos psicosociales laborales, enfocándose en el **Derecho a la Desconexión**, especialmente en contextos de **teletrabajo**. Está desarrollado con **HTML5**, **CSS personalizado** y **Bootstrap 5**.
+Este trabajo aborda el **Derecho a la Desconexión** en el marco de los **riesgos psicosociales laborales**, haciendo especial énfasis en la importancia de establecer **límites claros entre la jornada laboral y la vida personal**, sobre todo en situaciones de **teletrabajo**.
 
 ---
 
-## 📁 Estructura del Proyecto
+## 🎯 Objetivos
 
-📁 proyecto-desconexion/
-│
-├── index.html → Página principal
-├── CSS/
-│ └── estilo.css → Estilos personalizados
-└── README.md → Este archivo
-
-yaml
-Copiar
-Editar
+- Comprender qué son los riesgos psicosociales en el trabajo.
+- Explicar el concepto y fundamento legal del Derecho a la Desconexión.
+- Analizar las consecuencias de no respetar los tiempos de descanso laboral.
+- Promover buenas prácticas organizacionales para proteger la salud mental.
+- Presentar la información de manera clara, moderna y accesible a través de una **página web responsive**.
 
 ---
 
-## 🚀 Tecnologías Utilizadas
+## 🖥️ Descripción del proyecto
 
-- HTML5
-- CSS3
-- Bootstrap 5 (vía CDN)
-- Diseño responsivo y moderno con clases populares de Bootstrap
+Se desarrolló un sitio web con estructura HTML y diseño responsivo mediante **Bootstrap 5**. La presentación está organizada en secciones temáticas con tarjetas visuales, listas informativas y un diseño atractivo, adaptado tanto para computadoras como dispositivos móviles.
 
 ---
 
-## 🎯 Funcionalidades
-
-- Encabezado destacado con color personalizado
-- Contenido organizado en tarjetas (`.card`) con sombras (`.shadow`)
-- Listas organizadas y responsivas
-- Pie de página elegante
-- Preparado para futuras mejoras: íconos, PDF, modo oscuro, etc.
-
----
-
-## 🎨 Personalización
-
-Para cambiar el color del encabezado:
-1. Eliminar `bg-primary` en el `<header>`.
-2. Agregar un color en `estilo.css` usando `background-color`.
-
-Ejemplo:
-```css
-header {
-    background-color: #003366;
-    color: white;
-}
-📦 Cómo usar el proyecto
-Clonar o descargar el proyecto.
-
-Abrir el archivo index.html en cualquier navegador moderno.
-
-Editar CSS/estilo.css para aplicar estilos personalizados.
-
-🧑‍💻 Autor
-Desarrollado por Denis Alexander Castelvi Garcia
-Año: 2025
+## 📁 Estructura del proyecto
 
