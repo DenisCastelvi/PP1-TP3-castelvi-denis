@@ -22,5 +22,4 @@ Se desarrolló un sitio web con estructura HTML y diseño responsivo mediante **
 
 ---
 
-## 📁 Estructura del proyecto
 
